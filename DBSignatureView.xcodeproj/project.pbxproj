@@ -1,0 +1,311 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6B1C0FBF15F82C670069D775 /* DBSignatureView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B1C0FBD15F82C670069D775 /* DBSignatureView.m */; };
+		6B1C0FC015F82C670069D775 /* particle1.png in Resources */ = {isa = PBXBuildFile; fileRef = 6B1C0FBE15F82C670069D775 /* particle1.png */; };
+		6B1C0FC515F82C7F0069D775 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B1C0FC215F82C7F0069D775 /* AppDelegate.m */; };
+		6B1C0FC615F82C7F0069D775 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B1C0FC415F82C7F0069D775 /* ViewController.m */; };
+		6B1C0FC915F82CA10069D775 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6B1C0FC715F82CA10069D775 /* MainStoryboard.storyboard */; };
+		6B1C0FCE15F82CBA0069D775 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6B1C0FCC15F82CBA0069D775 /* InfoPlist.strings */; };
+		6B1C0FD015F82CC20069D775 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B1C0FCF15F82CC20069D775 /* main.m */; };
+		6BAD31C615D233C60050079B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6BAD31C515D233C60050079B /* UIKit.framework */; };
+		6BAD31C815D233C60050079B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6BAD31C715D233C60050079B /* Foundation.framework */; };
+		6BAD31CA15D233C60050079B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6BAD31C915D233C60050079B /* CoreGraphics.framework */; };
+		6BAD31E815D234230050079B /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6BAD31E715D234230050079B /* QuartzCore.framework */; };
+		6BAD31EA15D2343C0050079B /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6BAD31E915D2343C0050079B /* OpenGLES.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		6B1C0FBD15F82C670069D775 /* DBSignatureView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DBSignatureView.m; path = DBSignatureView/DBSignatureView.m; sourceTree = SOURCE_ROOT; };
+		6B1C0FBE15F82C670069D775 /* particle1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = particle1.png; path = DBSignatureView/particle1.png; sourceTree = SOURCE_ROOT; };
+		6B1C0FC115F82C7F0069D775 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = DBSignatureView/AppDelegate.h; sourceTree = SOURCE_ROOT; };
+		6B1C0FC215F82C7F0069D775 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = DBSignatureView/AppDelegate.m; sourceTree = SOURCE_ROOT; };
+		6B1C0FC315F82C7F0069D775 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ViewController.h; path = DBSignatureView/ViewController.h; sourceTree = SOURCE_ROOT; };
+		6B1C0FC415F82C7F0069D775 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ViewController.m; path = DBSignatureView/ViewController.m; sourceTree = SOURCE_ROOT; };
+		6B1C0FC815F82CA10069D775 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = DBSignatureView/en.lproj/MainStoryboard.storyboard; sourceTree = SOURCE_ROOT; };
+		6B1C0FCD15F82CBA0069D775 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = DBSignatureView/en.lproj/InfoPlist.strings; sourceTree = SOURCE_ROOT; };
+		6B1C0FCF15F82CC20069D775 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = DBSignatureView/main.m; sourceTree = SOURCE_ROOT; };
+		6B1C0FD115F82CCD0069D775 /* DBSignatureView-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "DBSignatureView-Info.plist"; path = "DBSignatureView/DBSignatureView-Info.plist"; sourceTree = SOURCE_ROOT; };
+		6B1C0FD215F82CCD0069D775 /* DBSignatureView-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "DBSignatureView-Prefix.pch"; path = "DBSignatureView/DBSignatureView-Prefix.pch"; sourceTree = SOURCE_ROOT; };
+		6BAD31C115D233C60050079B /* DBSignatureView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DBSignatureView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6BAD31C515D233C60050079B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		6BAD31C715D233C60050079B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		6BAD31C915D233C60050079B /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		6BAD31E215D234050050079B /* DBSignatureView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DBSignatureView.h; path = DBSignatureView/DBSignatureView.h; sourceTree = "<group>"; };
+		6BAD31E715D234230050079B /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		6BAD31E915D2343C0050079B /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6BAD31BE15D233C60050079B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6BAD31EA15D2343C0050079B /* OpenGLES.framework in Frameworks */,
+				6BAD31E815D234230050079B /* QuartzCore.framework in Frameworks */,
+				6BAD31C615D233C60050079B /* UIKit.framework in Frameworks */,
+				6BAD31C815D233C60050079B /* Foundation.framework in Frameworks */,
+				6BAD31CA15D233C60050079B /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6B1C0FB115F8279A0069D775 /* DBSignatureView */ = {
+			isa = PBXGroup;
+			children = (
+				6B1C0FBD15F82C670069D775 /* DBSignatureView.m */,
+				6B1C0FBE15F82C670069D775 /* particle1.png */,
+				6BAD31E215D234050050079B /* DBSignatureView.h */,
+			);
+			name = DBSignatureView;
+			sourceTree = "<group>";
+		};
+		6BAD31B615D233C60050079B = {
+			isa = PBXGroup;
+			children = (
+				6BAD31CB15D233C60050079B /* DBSignatureView */,
+				6BAD31C415D233C60050079B /* Frameworks */,
+				6BAD31C215D233C60050079B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6BAD31C215D233C60050079B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6BAD31C115D233C60050079B /* DBSignatureView.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6BAD31C415D233C60050079B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6BAD31E915D2343C0050079B /* OpenGLES.framework */,
+				6BAD31E715D234230050079B /* QuartzCore.framework */,
+				6BAD31C515D233C60050079B /* UIKit.framework */,
+				6BAD31C715D233C60050079B /* Foundation.framework */,
+				6BAD31C915D233C60050079B /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6BAD31CB15D233C60050079B /* DBSignatureView */ = {
+			isa = PBXGroup;
+			children = (
+				6B1C0FC715F82CA10069D775 /* MainStoryboard.storyboard */,
+				6B1C0FC115F82C7F0069D775 /* AppDelegate.h */,
+				6B1C0FC215F82C7F0069D775 /* AppDelegate.m */,
+				6B1C0FC315F82C7F0069D775 /* ViewController.h */,
+				6B1C0FC415F82C7F0069D775 /* ViewController.m */,
+				6B1C0FB115F8279A0069D775 /* DBSignatureView */,
+				6BAD31CC15D233C60050079B /* Supporting Files */,
+			);
+			name = DBSignatureView;
+			path = AFGSignatureView;
+			sourceTree = "<group>";
+		};
+		6BAD31CC15D233C60050079B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6B1C0FD115F82CCD0069D775 /* DBSignatureView-Info.plist */,
+				6B1C0FD215F82CCD0069D775 /* DBSignatureView-Prefix.pch */,
+				6B1C0FCF15F82CC20069D775 /* main.m */,
+				6B1C0FCC15F82CBA0069D775 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6BAD31C015D233C60050079B /* DBSignatureView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6BAD31DF15D233C60050079B /* Build configuration list for PBXNativeTarget "DBSignatureView" */;
+			buildPhases = (
+				6BAD31BD15D233C60050079B /* Sources */,
+				6BAD31BE15D233C60050079B /* Frameworks */,
+				6BAD31BF15D233C60050079B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DBSignatureView;
+			productName = AFGSignatureView;
+			productReference = 6BAD31C115D233C60050079B /* DBSignatureView.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6BAD31B815D233C60050079B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0440;
+			};
+			buildConfigurationList = 6BAD31BB15D233C60050079B /* Build configuration list for PBXProject "DBSignatureView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 6BAD31B615D233C60050079B;
+			productRefGroup = 6BAD31C215D233C60050079B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6BAD31C015D233C60050079B /* DBSignatureView */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6BAD31BF15D233C60050079B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6B1C0FC015F82C670069D775 /* particle1.png in Resources */,
+				6B1C0FC915F82CA10069D775 /* MainStoryboard.storyboard in Resources */,
+				6B1C0FCE15F82CBA0069D775 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6BAD31BD15D233C60050079B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6B1C0FBF15F82C670069D775 /* DBSignatureView.m in Sources */,
+				6B1C0FC515F82C7F0069D775 /* AppDelegate.m in Sources */,
+				6B1C0FC615F82C7F0069D775 /* ViewController.m in Sources */,
+				6B1C0FD015F82CC20069D775 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		6B1C0FC715F82CA10069D775 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6B1C0FC815F82CA10069D775 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+		6B1C0FCC15F82CBA0069D775 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6B1C0FCD15F82CBA0069D775 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6BAD31DD15D233C60050079B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		6BAD31DE15D233C60050079B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6BAD31E015D233C60050079B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DBSignatureView/DBSignatureView-Prefix.pch";
+				INFOPLIST_FILE = "DBSignatureView/DBSignatureView-Info.plist";
+				PRODUCT_NAME = DBSignatureView;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		6BAD31E115D233C60050079B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DBSignatureView/DBSignatureView-Prefix.pch";
+				INFOPLIST_FILE = "DBSignatureView/DBSignatureView-Info.plist";
+				PRODUCT_NAME = DBSignatureView;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6BAD31BB15D233C60050079B /* Build configuration list for PBXProject "DBSignatureView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6BAD31DD15D233C60050079B /* Debug */,
+				6BAD31DE15D233C60050079B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6BAD31DF15D233C60050079B /* Build configuration list for PBXNativeTarget "DBSignatureView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6BAD31E015D233C60050079B /* Debug */,
+				6BAD31E115D233C60050079B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6BAD31B815D233C60050079B /* Project object */;
+}
