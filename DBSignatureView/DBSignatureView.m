@@ -516,7 +516,7 @@ void ProviderReleaseData ( void *info, const void *data, size_t size )
 
 -(UIImage*) imageRepresentation
 {
-    
+    [EAGLContext setCurrentContext:context];
     UIImageView* upsideDownImageView=[[UIImageView alloc] initWithImage: [self upsideDownImageRepresenation]];
     
     upsideDownImageView.transform=CGAffineTransformScale(upsideDownImageView.transform, 1, -1);
